@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/node-practice/u-product-store/frontend/app/page.tsx"],"sourcesContent":["\n// import { Products } from \"./pages/products/page\";\nimport Link from \"next/link\";\n\nconst Home = () => {\n  return (\n   <div>\n    {/* <Products/> */}\n   </div>\n  );\n};\n\nexport default Home;\n\n"],"names":[],"mappings":"AACA,oDAAoD;;;;;;;AAGpD,MAAM,OAAO;IACX,qBACC,8OAAC;;;;;AAIJ;uCAEe","debugId":null}}]
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/node-practice/u-product-store/frontend/app/page.tsx"],"sourcesContent":["\n\nimport Link from \"next/link\";\nimport Products from \"./products\";\n\nconst Home = () => {\n  return (\n   <div>\n    <div className=\"text-4xl font-bold text-center\">Testing</div>\n    <Link\n        href=\"/pages/adminlogin\"\n        className=\"w-fit block mx-auto mt-6 hover:underline\"\n      >\n        Admin Login\n      </Link>\n    <Products/>\n   </div>\n  );\n};\n\nexport default Home;\n\n"],"names":[],"mappings":";;;;;AAEA;;;;;;;;;AAGA,MAAM,OAAO;IACX,qBACC,8OAAC;;0BACA,8OAAC;gBAAI,WAAU;0BAAiC;;;;;;0BAChD,8OAAC,0LAAI;gBACD,MAAK;gBACL,WAAU;0BACX;;;;;;0BAGH,8OAAC;;;;;;;;;;;AAGL;uCAEe","debugId":null}}]
 }

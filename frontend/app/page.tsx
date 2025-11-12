@@ -1,7 +1,7 @@
 
 
 import Link from "next/link";
-import Products from "../products/page";
+import Products from "./pages/products/page";
 
 const Home = () => {
   return (
