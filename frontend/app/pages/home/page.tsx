@@ -1,19 +1,19 @@
 
 
 import Link from "next/link";
-import Products from "./pages/products/page";
+import Products from "../products/page";
 
 const Home = () => {
   return (
    <div>
     <div className="text-4xl font-bold text-center">Testing</div>
-    {/* <Link
+    <Link
         href="/pages/adminlogin"
         className="w-fit block mx-auto mt-6 hover:underline"
       >
         Admin Login
-      </Link> */}
-    {/* <Products/> */}
+      </Link>
+    <Products/>
    </div>
   );
 };
