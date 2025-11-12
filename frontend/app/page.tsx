@@ -1,7 +1,7 @@
 
 
 import Link from "next/link";
-import Products from "./pages/products/page";
+// import Products from "./pages/products/page";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       >
         Admin Login
       </Link>
-    <Products/>
+    {/* <Products/> */}
    </div>
   );
 };
