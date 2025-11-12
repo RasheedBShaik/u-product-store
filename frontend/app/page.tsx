@@ -1,17 +1,18 @@
 
 
 import Link from "next/link";
-// import Products from "./pages/products/page";
+import Products from "./pages/products/page";
 
 const Home = () => {
   return (
    <div>
-    <Link
+    <div className="text-4xl font-bold text-center">Testing</div>
+    {/* <Link
         href="/pages/adminlogin"
         className="w-fit block mx-auto mt-6 hover:underline"
       >
         Admin Login
-      </Link>
+      </Link> */}
     {/* <Products/> */}
    </div>
   );
