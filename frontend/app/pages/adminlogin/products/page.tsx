@@ -10,7 +10,7 @@ type ProductType = {
   image?: string;
 };
 
-export const Product = () => {
+export const Products = () => {
       const [products, setProducts] = useState<ProductType[]>([]);
       const [loading, setLoading] = useState(true);
       const [error, setError] = useState<string | null>(null);

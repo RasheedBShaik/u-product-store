@@ -1,5 +1,5 @@
 
-import { Product } from "./Product";
+import { Products } from "./pages/adminlogin/products/page";
 import Link from "next/link";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       >
         Admin Login
       </Link>
-    <Product/>
+    <Products/>
    </div>
   );
 };
