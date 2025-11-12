@@ -1,0 +1,217 @@
+[00:00:25.425] Server  LOG      ✓ Ready in 20.8s
+[00:00:35.106] Server  LOG      ○ Compiling / ...
+[00:01:00.738] Browser ERROR   {}
+[00:03:39.320] Server  LOG      ✓ Compiled in 265ms
+[00:03:46.996] Browser ERROR   {}
+[00:07:18.452] Server  LOG      ✓ Compiled in 64ms
+[00:07:25.655] Browser ERROR   {}
+[00:07:33.030] Server  LOG      ✓ Compiled in 32ms
+[00:07:54.056] Server  LOG      ✓ Compiled in 30ms
+[00:08:07.568] Browser ERROR   {}
+[00:08:34.549] Server  LOG        Reload env: .env
+[00:08:40.273] Browser ERROR   {}
+[00:09:05.621] Server  LOG      ✓ Compiled in 71ms
+[00:09:15.806] Browser ERROR   {}
+[00:12:28.851] Server  LOG      ✓ Compiled in 24ms
+[00:12:36.621] Browser ERROR   {}
+[00:13:37.946] Server  LOG      ✓ Compiled in 31ms
+[00:16:08.776] Browser ERROR   {}
+[00:16:49.635] Server  LOG      ✓ Compiled in 59ms
+[00:18:17.187] Browser ERROR   {}
+[00:19:29.364] Server  LOG      ✓ Compiled in 39ms
+[00:20:07.692] Server  LOG      ✓ Compiled in 78ms
+[00:20:14.227] Browser ERROR   {}
+[00:20:43.000] Server  LOG      ✓ Compiled in 61ms
+[00:20:53.833] Browser ERROR   {}
+[00:21:11.425] Server  LOG      ✓ Compiled in 146ms
+[00:21:18.535] Browser ERROR   {}
+[00:21:22.329] Server  LOG      ○ Compiling /adminlogin ...
+[00:21:27.541] Browser ERROR   {}
+[00:21:29.079] Browser ERROR   {}
+[00:24:59.160] Server  LOG      ✓ Compiled in 161ms
+[00:25:08.214] Browser ERROR   {}
+[00:25:33.576] Server  LOG      ✓ Compiled in 178ms
+[00:25:39.843] Server  LOG      ✓ Compiled in 129ms
+[00:26:30.445] Server  LOG      ✓ Compiled in 102ms
+[00:26:54.821] Server  LOG      ✓ Compiled in 23ms
+[00:27:21.446] Browser ERROR   {}
+[00:27:44.554] Server  LOG      ✓ Compiled in 34ms
+[00:35:32.154] Browser ERROR   {}
+[00:39:58.426] Browser ERROR   {}
+[00:40:16.420] Browser ERROR   {}
+[00:42:01.035] Server  LOG        Reload env: .env
+[00:42:09.759] Browser ERROR   {}
+[00:42:34.129] Browser ERROR   {}
+[00:46:35.608] Browser ERROR   {}
+[00:50:10.682] Browser ERROR   {}
+[00:54:46.287] Server  LOG        Reload env: .env
+[00:54:49.385] Server  LOG      ✓ Compiled in 1698ms
+[00:55:44.001] Server  LOG        Reload env: .env
+[00:55:45.059] Server  LOG      ✓ Compiled in 549ms
+[00:55:49.345] Browser ERROR   {}
+[00:56:02.048] Server  LOG        Reload env: .env
+[00:56:02.831] Server  LOG        Reload env: .env
+[00:56:03.335] Server  LOG      ✓ Compiled in 369ms
+[00:58:26.404] Browser ERROR   {}
+[00:58:37.541] Server  LOG        Reload env: .env
+[00:58:38.815] Server  LOG      ✓ Compiled in 796ms
+[00:58:57.814] Server  LOG        Reload env: .env
+[00:58:58.935] Server  LOG      ✓ Compiled in 550ms
+[00:59:01.619] Server  LOG        Reload env: .env
+[00:59:01.955] Server  LOG      ✓ Compiled in 290ms
+[00:59:09.942] Server  LOG        Reload env: .env
+[00:59:10.452] Server  LOG      ✓ Compiled in 532ms
+[00:59:10.770] Browser ERROR   {}
+[00:59:10.770] Browser ERROR   {}
+[00:59:14.770] Browser ERROR   {}
+[00:59:17.023] Server  LOG        Reload env: .env
+[00:59:17.312] Server  LOG      ✓ Compiled in 77ms
+[01:07:20.597] Server  LOG        Reload env: .env
+[01:07:20.989] Server  LOG      ✓ Compiled in 334ms
+[01:07:27.838] Browser ERROR   {}
+[01:12:12.836] Browser ERROR   {}
+[01:12:33.934] Server  LOG        Reload env: .env
+[01:12:34.268] Server  LOG      ✓ Compiled in 99ms
+[01:12:41.480] Browser ERROR   {}
+[01:12:45.174] Server  LOG        Reload env: .env
+[01:12:45.398] Server  LOG      ✓ Compiled in 0ms
+[01:12:47.852] Server  LOG        Reload env: .env
+[01:12:48.057] Server  LOG      ✓ Compiled in 0ms
+[01:12:53.044] Browser ERROR   {}
+[01:13:10.721] Browser ERROR   {}
+[01:21:41.106] Server  LOG      ✓ Compiled in 1707ms
+[01:21:48.076] Browser ERROR   {}
+[01:22:10.207] Server  LOG      ✓ Compiled in 3s
+[01:22:14.803] Browser ERROR   {}
+[01:22:29.696] Server  LOG      ✓ Compiled in 557ms
+[01:22:41.629] Browser ERROR   {}
+[01:22:52.907] Browser ERROR   {}
+[01:23:24.656] Server  LOG      ✓ Compiled in 1758ms
+[01:23:38.178] Browser ERROR   {}
+[01:24:44.395] Server  LOG      ✓ Compiled in 363ms
+[01:35:55.957] Browser ERROR   {}
+[01:39:27.644] Server  ERROR    ⨯ ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[01:39:28.441] Server  LOG      ✓ Compiled in 26.6s
+[01:39:29.852] Browser ERROR   ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[01:39:31.254] Server  LOG      ○ Compiling /_error ...
+[01:40:33.189] Browser ERROR   ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[01:40:33.189] Browser ERROR   ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[01:40:38.180] Browser ERROR   ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[01:41:04.954] Browser ERROR   ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[01:41:18.448] Browser ERROR   uncaughtError: Error: ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+
+[01:41:21.077] Browser ERROR   ./frontend/app/page.tsx:2:1
+Export Product doesn't exist in target module
+  1 |
+> 2 | import { Product } from "./Product";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Link from "next/link";
+  4 |
+  5 | const Home = () => {
+
+The export Product was not found in module [project]/frontend/app/Product.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[01:41:23.970] Server  LOG      ✓ Compiled in 6.9s
+[01:42:32.043] Browser ERROR   {}
+[01:42:57.264] Server  LOG        Reload env: .env
+[01:42:59.595] Server  LOG      ✓ Compiled in 1354ms
+[01:43:29.760] Server  LOG        Reload env: .env
+[01:48:38.661] Server  LOG      ✓ Compiled in 4.2s
+[01:48:52.937] Server  LOG      ✓ Compiled in 287ms
+[01:49:05.916] Server  LOG      ✓ Compiled in 503ms
+[01:49:17.069] Server  LOG      ✓ Compiled in 107ms
+[01:49:54.734] Server  LOG      ✓ Compiled in 1321ms
+[01:50:48.164] Server  LOG      ✓ Compiled in 324ms
+[01:51:36.861] Server  LOG      ✓ Compiled in 85ms
+[01:53:27.150] Server  LOG      ✓ Compiled in 156ms
+[01:54:18.819] Server  LOG      ✓ Compiled in 115ms
+[01:58:32.979] Server  LOG      ✓ Compiled in 25ms
+[02:12:18.545] Server  LOG      ✓ Compiled in 19.3s
+[02:12:42.842] Server  LOG      ✓ Compiled in 1913ms
+[02:12:53.006] Server  LOG      ✓ Compiled in 1282ms
+[02:13:03.616] Server  LOG      ✓ Compiled in 1460ms
+[02:13:19.657] Server  LOG      ✓ Compiled in 1899ms
+[02:14:54.323] Server  LOG      ✓ Compiled in 290ms
+[02:15:42.751] Server  LOG      ✓ Compiled in 399ms
+[02:20:07.613] Server  LOG      ✓ Compiled in 1254ms
