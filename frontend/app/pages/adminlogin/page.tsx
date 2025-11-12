@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function AdminLogin() {
+export default function adminlogin() {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -19,10 +19,10 @@ export default function AdminLogin() {
       window.open("https://product-store-zgez.onrender.com/", "_blank");
 
     }
-    if (username === "Name" && password === "Password"){
+    else if (username === "Name" && password === "Password"){
       window.open("https://product-store-zgez.onrender.com/", "_blank");
     } 
-    if (username === "name" && password === "password"){
+    else if (username === "name" && password === "password"){
       window.open("https://product-store-zgez.onrender.com/", "_blank");
     } 
     else {

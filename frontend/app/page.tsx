@@ -1,12 +1,13 @@
 
-import { Products } from "./pages/adminlogin/products/page";
+
 import Link from "next/link";
+import Products from "./pages/products/page";
 
 const Home = () => {
   return (
    <div>
     <Link
-        href="/adminlogin"
+        href="/pages/adminlogin"
         className="w-fit block mx-auto mt-6 hover:underline"
       >
         Admin Login

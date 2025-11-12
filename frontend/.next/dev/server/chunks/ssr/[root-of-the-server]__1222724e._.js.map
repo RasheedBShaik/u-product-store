@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/node-practice/u-product-store/frontend/app/page.tsx"],"sourcesContent":["\n// import { Products } from \"./pages/products/page\";\nimport Link from \"next/link\";\n\nconst Home = () => {\n  return (\n   <div>\n    {/* <Products/> */}\n   </div>\n  );\n};\n\nexport default Home;\n\n"],"names":[],"mappings":"AACA,oDAAoD;;;;;;;AAGpD,MAAM,OAAO;IACX,qBACC,8OAAC;;;;;AAIJ;uCAEe","debugId":null}}]
+}

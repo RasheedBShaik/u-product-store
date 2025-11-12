@@ -40,16 +40,22 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/adminlogin",
-      "regex": "^/adminlogin(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/adminlogin(?:/)?$"
-    },
-    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/pages/adminlogin",
+      "regex": "^/pages/adminlogin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pages/adminlogin(?:/)?$"
+    },
+    {
+      "page": "/pages/products",
+      "regex": "^/pages/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pages/products(?:/)?$"
     }
   ],
   "dataRoutes": [],
