@@ -18,7 +18,7 @@ const Products = () => {
     try {
       setLoading(true);
       setError(null); // Reset error on each fetch attempt
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/products`);
+      const res = await fetch(`https://product-store-zgez.onrender.com/api/products`);
 
       if (!res.ok) {
         throw new Error(`HTTP error! Status: ${res.status}`);
