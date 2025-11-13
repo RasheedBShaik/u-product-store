@@ -1,13 +1,13 @@
 
 
 import Link from "next/link";
-import Products from "./pages/products/page";
+import Products from "./products/page";
 const Home = () => {
   return (
-   <div>
-    <div className="text-4xl font-bold text-center">Testing</div>
+   <div className="py-10">
+    <div className=" text-2xl sm:text-4xl font-bold text-center">Welcome to product store</div>
     <Link
-        href="/pages/adminlogin"
+        href="/adminlogin"
         className="w-fit block mx-auto mt-6 hover:underline"
       >
         Admin Login
