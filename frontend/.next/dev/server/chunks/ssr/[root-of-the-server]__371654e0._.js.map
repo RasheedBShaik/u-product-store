@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/node-practice/u-product-store/frontend/app/page.tsx"],"sourcesContent":["import { Products } from \"./product\";\n\nconst Home = () => {\n  return (\n   <div>\n    <Products/>\n   </div>\n  );\n};\n\nexport default Home;\n\n"],"names":[],"mappings":";;;;;;;;;;;;AAEA,MAAM,OAAO;IACX,qBACC,0PAAC;kBACA,cAAA,0PAAC;;;;;;;;;;AAGL;uCAEe","debugId":null}}]
-}

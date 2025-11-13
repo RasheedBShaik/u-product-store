@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/node-practice/u-product-store/frontend/app/page.tsx"],"sourcesContent":["\"use client\";\nimport { useState, useEffect } from \"react\";\n\n\nconst Home = () => {\n };\n\nexport default Home;\n\n"],"names":[],"mappings":";;;;AAAA;AAIA,MAAM,OAAO,KACZ;KADK;uCAGS","debugId":null}}]
-}
