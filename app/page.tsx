@@ -7,7 +7,7 @@ const Home = () => {
    <div className="py-10">
     <div className=" text-2xl sm:text-4xl font-bold text-center">Welcome to product store</div>
     <Link
-        href="/adminlogin"
+        href="https://product-store-zgez.onrender.com/"
         className="w-fit block mx-auto mt-6 hover:underline"
       >
         Admin Login
